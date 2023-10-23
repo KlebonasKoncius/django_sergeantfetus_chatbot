@@ -2,7 +2,7 @@
 
 ![ChatGPT Logo](./images/sgtfetus.png)
 
-Kadangi kariuomenei gimsti iš naujo ar lieki naujagimis IRBA(ir bei arba) iš VISO negimsti, tad gimė programinis subjektas - Puskarininkis(Seržantas) Vaisius - angl. Sergeant Fetus.
+Kadangi kariuomenei gimsti iš naujo ar lieki naujagimis IRBA `https://www.pipedija.com/index.php/Irba` iš VISO negimsti, tad gimė programinis subjektas - Seržantas(Puskarininkis) Vaisius - angl. Sergeant Fetus.
 
 ## Funkcijos
 ![showcase.png](./images/showcase.png)
@@ -15,10 +15,11 @@ Kadangi kariuomenei gimsti iš naujo ar lieki naujagimis IRBA(ir bei arba) iš V
 
 Prieš pradedant naudoti, patikrinkite ar Python'o paketai atitinka šias versijas:
 
-ctrl+r kombinaciją(windows) surinkinte į langelį("cmd") ir rašykite "pip show python; po to vietoj Python -> Django.
+ctrl+r kombinaciją(windows) surinkinte į langelį("cmd") ir rašykite "pip show python"; po to vietoj Python -> Django.
 - Python (>= 3.9)
 - Django (>= 3.7)
 
+Bet kokiu atveju, šiam projektui paleisti/testuoti reikalinga „Visual Studio Code“ programa ir pagrindiniai jų plėtiniai(angl. extensions).
 ## Instaliacija
 
 Pirmieji Žingsniai:
@@ -37,7 +38,7 @@ pip install -r requirements.txt
 ## Demo įspėjimas
 Šiame darbe jau egzistuoja API raktai, reikalingi projektui funkciuonuoti, tad PRAŠYČIAU nevogt(NENUPISTI), antraip atsiųsiu savą chebrą tavą nomei ar tais išverksiu antras Kauną marias b(l).
 
-Tam kad saitas funkciuoniuotų reikalingi „Microsoft Azure Text-to-Speech API ir OpenAI raktai, kuriuos susiraskite.. krč ;D.
+Tam kad saitas funkciuoniuotų reikalingi „Microsoft Azure Text-to-Speech API ir OpenAI raktai, kuriuos tiesiog susiraskite.. krč ;D.
 ## Naudojimas
 
 1. Startuokite Django development serverį VS Code'e:
@@ -63,14 +64,14 @@ Administratoriui reikalingi duomenys:
 - **Email address**: e. pašto adresas.
 - **Password**: slaptažodis. SVARBU tai, jog slaptažodis NEBUS matomas, kai jį rašysite/kursite.
 
-Surinkus viską paspauskite enter ir jei turėsite pamatyti žinutę jog administratorius buvo sukurtas.
+Surinkus visą informaciją, paspauskite enter ir turėsite pamatyti žinutę jog administratorius buvo sukurtas.
 
 ```python
 Superuser created successfully.
 ```
-Nepamirškite išsaugoti Jūsų administratoriaus prisijungimo duomenų!
+Nepamirškite išsaugoti Jūsų administratoriaus prisijungimo duomenų nuošaliai(atskirai(saugiam faile))!
 
-Šia nuoroda galėsite patekti į Django adminstracinę sistemą, kurioje galėsite stebėti kas vyksta. `/admin/` URL.
+Šia nuoroda galėsite patekti į Django adminstracinę sistemą, kurioje galėsite stebėti viską, kas vyksta. `/admin/` URL.
 
 ![admin.png](./images/admin.png)
 
@@ -86,12 +87,12 @@ Nepamirškite išsaugoti Jūsų administratoriaus prisijungimo duomenų!
 2. Pagr. tinklapis prisjungus `http://127.0.0.1:8000/`
 3. Registracija: `http://localhost:8000/register`
 4. Restartavus `http://localhost:8000/`
-5. papildomas admin? `http://localhost:8000/admin/`
+5. papildomas admin(debug) `http://localhost:8000/admin/`
 
 
 
 ## Kontribucijos
 
-Jei kas turi idėjų ar siekiamybės prisidėti prie šio projekto, galite iškelti „pull request“, ar pridėti mane prie draugų soc. tinkle „LinkedIn“.
+Jei turite idėjų ar siekiamybės prisidėti prie šio projekto, galite man iškelti „pull request“, ar pridėti mane prie draugų soc. tinkle „LinkedIn“.
 
 Linkiu smagiai praleisti laiką su šiuo mažyliu ;D
