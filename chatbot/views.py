@@ -77,7 +77,7 @@ def login(request):
     else:
         return render(request, 'login.html')
 
-#User Registracija
+# User Registracija
 def register(request):
     if request.method == 'POST':
         username = request.POST['username']
