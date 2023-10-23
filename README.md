@@ -5,7 +5,7 @@
 Kadangi kariuomenei gimsti iš naujo ar lieki naujagimis IRBA(ir bei arba) iš VISO negimsti, tad gimė programinis subjektas - Puskarininkis(Seržantas) Vaisius - angl. Sergeant Fetus.
 
 ## Funkcijos
-
+![showcase.png](./images/showcase.png)
 - Pokalbis su AI botu - SergeantFetus(GPT-3.5-turbo(beveik realiuoju laiku)), kuris atsako tau atgal balsu.
 - Naudojimui privaloma užsiregistruoti ir prisijungti.
 - Integracija su „Django“ web administraciniu tinklu. Jame galima sekti user'ius, jų duomenis, bei susirašinėjimų istoriją, tam kad nebūtų tokių marginalų kaip pedofilų ir kitų š...
@@ -36,15 +36,8 @@ pip install -r requirements.txt
 ```
 ## Demo įspėjimas
 Šiame darbe jau egzistuoja API raktai, reikalingi projektui funkciuonuoti, tad PRAŠYČIAU nevogt(NENUPISTI), antraip atsiųsiu savą chebrą tavą nomei ar tais išverksiu antras Kauną marias b(l).
-	
-	
-	
-	
-	
-	
 
-Nevokit pls ;(((
-
+Tam kad saitas funkciuoniuotų reikalingi „Microsoft Azure Text-to-Speech API ir OpenAI raktai, kuriuos susiraskite.. krč ;D.
 ## Naudojimas
 
 1. Startuokite Django development serverį VS Code'e:
