@@ -10,9 +10,9 @@ from .models import Chat
 from django.utils import timezone
 
 # Mano raktai.. no steal plss ;(((
-openai_api_key = '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'
-openai.api_key = openai_api_key 
-azure_auth_tk = 'f03bf8c615c84e9eb5d68993e8b7ad6e'
+openai_api_key = 'your openAI key'
+openai.api_key = 'openai api key'
+azure_auth_tk = 'azure authentication key'
 
 # Variables For Azure's Voice Synthesis
 speech_config = speechsdk.SpeechConfig(subscription=azure_auth_tk, region="switzerlandnorth")
